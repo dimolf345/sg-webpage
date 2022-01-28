@@ -14,13 +14,13 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-md navbar-dark bg-warning"
+        class="navbar navbar-expand-md navbar-light"
         aria-label="main navbar"
       >
         <div class="container-fluid">
-          <h1 class="text-primary">
-            <a class="navbar-brand" href="#">Sonia Gentile</a>
-          </h1>
+          <div class="text-primary logo-container">
+            <a class="text-primary navbar-brand" href="#">Sonia Gentile</a>
+          </div>
 
           <button
             class="navbar-toggler"
@@ -31,7 +31,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <div class="navbar-toggler-icon flex-center">
+              <i class="fas fa-bars"></i>
+            </div>
           </button>
 
           <div class="collapse navbar-collapse" id="main-navbar">
@@ -47,28 +49,47 @@
               <li class="nav-item">
                 <a class="nav-link">Contatti</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown04"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Dropdown</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <main>
+      <!-- Landing Section -->
+      <section class="landing">
+        <div class="landing-background"></div>
+        <div class="container">
+          <div class="row">
+            <!-- Image container -->
+            <div
+              class="col-md-6 col-sm-12 image-container"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            >
+              <img
+                class="img-fluid full-rounded shadow-lg"
+                src="./assets/images/landing.jpeg"
+                alt="Sonia gentile picture"
+              />
+            </div>
+            <!-- Text container -->
+            <div
+              class="col-md-6 col-sm-12 text-container text-center flex-center flex-column"
+              data-aos="fade-left"
+            >
+              <h1>Sonia Gentile</h1>
+              <h2>Career Coach</h2>
+              <hr />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ratione, praesentium ipsam! Beatae aut, praesentium harum ullam
+                adipisci exercitationem rerum veritatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
