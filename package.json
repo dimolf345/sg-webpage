@@ -1,0 +1,19 @@
+{
+  "name": "sonia-webpage",
+  "version": "1.0.0",
+  "description": "Sonia Gentile's webpage",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "parcel  ./src/index.html --open"
+  },
+  "author": "Luca Di Molfetta",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3"
+  }
+}
