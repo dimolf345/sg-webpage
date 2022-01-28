@@ -1,12 +1,13 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
 // Include any default variable overrides here (though functions won't be available)
 // $warning: #f5bc46;
+//light-turchese : #4ecdc4 rgba(78,205,196,255)
+//turchese scuro: #1a535c rgba(26,83,92,255)
+
 $box-shadow-lg: 0 1rem 3rem rgba(black, 0.3);
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-
 // Then add additional custom code here
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 .navbar-light .navbar-toggler-icon {
   background-image: none;
