@@ -6,6 +6,6 @@ const AOS = require("aos");
 AOS.init({
   delay: 200,
   duration: 1000,
-  once: false,
+  once: true,
   mirror: false,
 });

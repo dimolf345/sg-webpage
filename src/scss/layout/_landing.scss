@@ -1,9 +1,9 @@
 .landing {
-  min-height: 50vh;
   overflow: hidden;
 
   .row {
     position: relative;
+    z-index: 9;
   }
 
   &-background {
@@ -30,7 +30,12 @@
 @include media-breakpoint-up(md) {
   .landing {
     padding-top: 4rem;
+
+    .container {
+      overflow: clip;
+    }
   }
+
   .image-container {
     padding-left: 0 !important;
   }
@@ -47,7 +52,7 @@
   }
 
   .landing-background {
-    clip-path: none;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 40%);
   }
 
   .image-container {

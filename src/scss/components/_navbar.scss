@@ -3,3 +3,13 @@
     margin-left: auto;
   }
 }
+
+.navbar-toggler-icon {
+  color: #f5bc46;
+}
+
+@include media-breakpoint-up(lg) {
+  header {
+    padding: 2rem 0;
+  }
+}

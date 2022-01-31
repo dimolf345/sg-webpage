@@ -1,7 +1,14 @@
-section:not(:first-of-type) {
-  margin: 3rem 0;
+section {
+  padding: 2rem 0;
 }
 
-h2 {
+h3 {
   min-height: 80px;
+}
+
+.whatido {
+  h2 {
+    margin: 2.5rem 0;
+    max-width: 576px;
+  }
 }
