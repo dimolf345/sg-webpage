@@ -5,7 +5,8 @@
   "main": "/src/index.js",
   "scripts": {
     "start": "parcel  ./src/index.html --open",
-    "build": "parcel build ./src/index.html"
+    "prebuild": "npx rimraf build",
+    "build": "parcel build ./src/index.html --public-url ./ --dist-dir build"
   },
   "author": "Luca Di Molfetta",
   "license": "ISC",
