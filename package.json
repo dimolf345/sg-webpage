@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel  ./src/index.html --open",
     "prebuild": "npx rimraf build",
-    "build": "parcel build ./src/index.html --public-url ./ --dist-dir build"
+    "build": "parcel build ./src/index.html --public-url ./ --dist-dir dist"
   },
   "author": "Luca Di Molfetta",
   "license": "ISC",
