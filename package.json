@@ -2,19 +2,19 @@
   "name": "sonia-webpage",
   "version": "1.0.0",
   "description": "Sonia Gentile's webpage",
-  "main": "/src/index.js",
   "scripts": {
     "start": "parcel  ./src/index.html --open",
-    "prebuild": "npx rimraf build",
-    "build": "parcel build ./src/index.html --public-url ./ --dist-dir dist"
+    "build": "parcel build src/index.html"
   },
   "author": "Luca Di Molfetta",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1",
     "sass": "^1.49.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.11.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.1.3"
