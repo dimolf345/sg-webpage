@@ -1,9 +1,8 @@
 require("bootstrap");
 require("@fortawesome/fontawesome-free");
-const AOS = require("aos");
 
 // Starting Animate On Scroll (AOS)
-AOS.init({
+require("aos").init({
   delay: 200,
   duration: 1000,
   once: false,
