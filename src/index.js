@@ -1,5 +1,4 @@
 require("bootstrap");
-require("aos/dist/aos.css");
 require("@fortawesome/fontawesome-free");
 const AOS = require("aos");
 
@@ -7,6 +6,6 @@ const AOS = require("aos");
 AOS.init({
   delay: 200,
   duration: 1000,
-  once: true,
+  once: false,
   mirror: false,
 });

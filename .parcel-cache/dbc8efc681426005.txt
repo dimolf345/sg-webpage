@@ -1,4 +1,4 @@
-23926
+23954
 64/home/luca/Programming/sonia-page/src/assets/images/landing.jpeg1643404744314041730 0
 51/home/luca/Programming/sonia-page/src/assets/images1643404755506116693 1
 52/home/luca/Programming/sonia-page/src/scss/main.scss1643405568101418706 0
@@ -6,21 +6,36 @@
 68/home/luca/Programming/sonia-page/src/scss/abstracts/_utilities.scss1643645662410320620 0
 63/home/luca/Programming/sonia-page/src/scss/layout/_landing.scss1643652970019505872 0
 63/home/luca/Programming/sonia-page/src/scss/layout/_general.scss1643651476070605423 0
-46/home/luca/Programming/sonia-page/src/index.js1643655020484473891 0
+46/home/luca/Programming/sonia-page/src/index.js1643744375401057200 0
 57/home/luca/Programming/sonia-page/dist/index.00ed554f.css1643655247353070472 0
+66/home/luca/Programming/sonia-page/dist/fa-regular-400.1ca1d6f1.ttf1643744256152958287 0
 55/home/luca/Programming/sonia-page/dist/src.e31bb0bc.css1643652273343929016 0
+65/home/luca/Programming/sonia-page/dist/fa-brands-400.19c6d73e.eot1643744256160958290 0
 60/home/luca/Programming/sonia-page/dist/main.77bb5cfd.css.map1643652975755361513 0
 67/home/luca/Programming/sonia-page/dist/landing-resized.4e41c996.jpg1643402052409320169 0
-49/home/luca/Programming/sonia-page/dist/index.html1643655247353070472 0
+49/home/luca/Programming/sonia-page/dist/index.html1643744675177536790 0
+68/home/luca/Programming/sonia-page/dist/fa-regular-400.6b5e9a3a.woff21643744256160958290 0
 60/home/luca/Programming/sonia-page/dist/index.a9e18e35.js.map1643655247377070330 0
 61/home/luca/Programming/sonia-page/dist/index.00ed554f.css.map1643655247377070330 0
+57/home/luca/Programming/sonia-page/dist/index.b10d73a7.css1643744359177037955 0
+56/home/luca/Programming/sonia-page/dist/index.0a7375c5.js1643744675177536790 0
 59/home/luca/Programming/sonia-page/dist/src.e31bb0bc.css.map1643652273359928680 0
+66/home/luca/Programming/sonia-page/dist/fa-brands-400.33f67e03.woff1643744256160958290 0
+56/home/luca/Programming/sonia-page/dist/index.975ef6c8.js1643744375597057441 0
 58/home/luca/Programming/sonia-page/dist/image.903c00ad.jpeg1643403045709264286 0
+57/home/luca/Programming/sonia-page/dist/index.9edf51c0.css1643744675177536790 0
+64/home/luca/Programming/sonia-page/dist/fa-solid-900.00de7331.eot1643744256164958290 0
+67/home/luca/Programming/sonia-page/dist/fa-regular-400.615487ce.woff1643744256216958305 0
+60/home/luca/Programming/sonia-page/dist/index.0a7375c5.js.map1643744675201536832 0
+64/home/luca/Programming/sonia-page/dist/fa-solid-900.2bef98e0.ttf1643744256220958307 0
 56/home/luca/Programming/sonia-page/dist/index.a9e18e35.js1643655247353070472 0
 67/home/luca/Programming/sonia-page/dist/landing-mobile.53f0f558.jpeg1643383842437788950 0
+66/home/luca/Programming/sonia-page/dist/fa-regular-400.a4afcbd5.svg1643744256228958309 0
 58/home/luca/Programming/sonia-page/dist/src.e31bb0bc.js.map1643652299819366950 0
+66/home/luca/Programming/sonia-page/dist/fa-solid-900.45be5413.woff21643744256216958305 0
+60/home/luca/Programming/sonia-page/dist/index.6a80d68d.js.map1643744675201536832 0
 56/home/luca/Programming/sonia-page/dist/main.77bb5cfd.css1643652975723362319 0
-38/home/luca/Programming/sonia-page/dist1643655247377070330 1
+38/home/luca/Programming/sonia-page/dist1643744675201536832 1
 73/home/luca/Programming/sonia-page/node_modules/msgpackr-extract/README.md1643654307849999000 0
 79/home/luca/Programming/sonia-page/node_modules/msgpackr-extract/src/extract.cpp1643654307849999000 0
 84/home/luca/Programming/sonia-page/node_modules/msgpackr-extract/.circleci/config.yml1643654307849999000 0
@@ -93,7 +108,7 @@
 79/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/css/bootstrap.css1643654294907000000 0
 65/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/css1643654321632270986 1
 89/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/js/bootstrap.esm.min.js.map1643654294907000000 0
-73/home/luca/Programming/sonia-page/src/scss/vendors/_custom-bootstrap.scss1643655080119092092 0
+73/home/luca/Programming/sonia-page/src/scss/vendors/_custom-bootstrap.scss1643744053100599496 0
 92/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map1643654294907000000 0
 85/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/js/bootstrap.esm.js.map1643654294907000000 0
 88/home/luca/Programming/sonia-page/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js1643654294907000000 0
@@ -1262,6 +1277,7 @@
 85/home/luca/Programming/sonia-page/node_modules/css-tree/lib/syntax/node/Percentage.js1643654312655999000 0
 81/home/luca/Programming/sonia-page/node_modules/css-tree/lib/syntax/node/String.js1643654312655999000 0
 87/home/luca/Programming/sonia-page/node_modules/css-tree/lib/syntax/node/SelectorList.js1643654312655999000 0
+56/home/luca/Programming/sonia-page/dist/index.b5b27c11.js1643744601165407099 0
 80/home/luca/Programming/sonia-page/node_modules/css-tree/lib/syntax/node/Value.js1643654312655999000 0
 79/home/luca/Programming/sonia-page/node_modules/css-tree/lib/syntax/node/Rule.js1643654312655999000 0
 62/home/luca/Programming/sonia-page/node_modules/concat-map/test1643654321252281040 1
@@ -1307,6 +1323,7 @@
 65/home/luca/Programming/sonia-page/node_modules/css-tree/lib/lexer1643654321916263470 1
 74/home/luca/Programming/sonia-page/node_modules/css-tree/lib/common/List.js1643654312655999000 0
 81/home/luca/Programming/sonia-page/node_modules/css-tree/lib/common/TokenStream.js1643654312655999000 0
+61/home/luca/Programming/sonia-page/dist/index.9edf51c0.css.map1643744675201536832 0
 66/home/luca/Programming/sonia-page/node_modules/css-tree/lib/common1643654321916263470 1
 90/home/luca/Programming/sonia-page/node_modules/css-tree/lib/definition-syntax/tokenizer.js1643654312655999000 0
 92/home/luca/Programming/sonia-page/node_modules/css-tree/lib/definition-syntax/SyntaxError.js1643654312655999000 0
@@ -2746,6 +2763,7 @@
 66/home/luca/Programming/sonia-page/node_modules/.is-symbol-XNFda9km1643653988129082291 1
 98/home/luca/Programming/sonia-page/node_modules/htmlnano/lib/modules/collapseAttributeWhitespace.js1643654302903000000 0
 80/home/luca/Programming/sonia-page/node_modules/htmlnano/lib/modules/minifyCss.js1643654302903000000 0
+67/home/luca/Programming/sonia-page/dist/fa-brands-400.55a67878.woff21643744256216958305 0
 101/home/luca/Programming/sonia-page/node_modules/.highlight.js-JwvP3rFG/styles/atelier-seaside-dark.css1643653993828931981 0
 83/home/luca/Programming/sonia-page/node_modules/htmlnano/lib/modules/mergeScripts.js1643654302903000000 0
 58/home/luca/Programming/sonia-page/node_modules/.bin/mkdirp1643654802679095996 0
@@ -3229,6 +3247,7 @@
 77/home/luca/Programming/sonia-page/node_modules/es-abstract/2019/DateString.js1643654318618000000 0
 86/home/luca/Programming/sonia-page/node_modules/cosmiconfig/dist/getPropertyByPath.d.ts1643654311677000000 0
 77/home/luca/Programming/sonia-page/node_modules/core-js/actual/instance/map.js1643654304625999000 0
+56/home/luca/Programming/sonia-page/dist/index.6a80d68d.js1643744675177536790 0
 80/home/luca/Programming/sonia-page/node_modules/core-js/actual/string/includes.js1643654304625999000 0
 43/home/luca/Programming/sonia-page/.cache/011643319470456093363 1
 89/home/luca/Programming/sonia-page/node_modules/core-js/actual/instance/find-last-index.js1643654304625999000 0
@@ -4341,7 +4360,7 @@
 74/home/luca/Programming/sonia-page/node_modules/es-abstract/helpers/sign.js1643654318618000000 0
 86/home/luca/Programming/sonia-page/node_modules/core-js/actual/typed-array/find-last.js1643654304625999000 0
 103/home/luca/Programming/sonia-page/node_modules/core-js/modules/es.object.get-own-property-descriptor.js1643654304625999000 0
-48/home/luca/Programming/sonia-page/src/index.html1643654946532211751 0
+48/home/luca/Programming/sonia-page/src/index.html1643744657969506359 0
 77/home/luca/Programming/sonia-page/node_modules/core-js/actual/string/split.js1643654304625999000 0
 60/home/luca/Programming/sonia-page/node_modules/bytes/LICENSE1643654305880000000 0
 68/home/luca/Programming/sonia-page/node_modules/msgpackr/benchmark.md1643654301740000000 0
@@ -4607,6 +4626,7 @@
 79/home/luca/Programming/sonia-page/node_modules/postcss/node_modules/.bin/nanoid1643654802659092263 0
 75/home/luca/Programming/sonia-page/node_modules/core-js/actual/json/index.js1643654304625999000 0
 68/home/luca/Programming/sonia-page/node_modules/.signal-exit-4zNkWbm51643653987933087459 1
+65/home/luca/Programming/sonia-page/dist/fa-brands-400.57c0b8ee.svg1643744256152958287 0
 81/home/luca/Programming/sonia-page/node_modules/jake/node_modules/has-flag/license1643654305555000000 0
 79/home/luca/Programming/sonia-page/node_modules/core-js/proposals/set-methods.js1643654304625999000 0
 63/home/luca/Programming/sonia-page/node_modules/braces/README.md1643654295151000000 0
@@ -7341,6 +7361,7 @@
 95/home/luca/Programming/sonia-page/node_modules/.es-abstract-VyRP7Puy/2019/CreateDataProperty.js1643653988541071427 0
 86/home/luca/Programming/sonia-page/node_modules/@babel/types/lib/comments/addComment.js1643654314308000000 0
 98/home/luca/Programming/sonia-page/node_modules/.highlight.js-JwvP3rFG/lib/languages/angelscript.js1643653993872930821 0
+64/home/luca/Programming/sonia-page/dist/fa-solid-900.b22a3064.svg1643744256152958287 0
 71/home/luca/Programming/sonia-page/node_modules/.is-date-object-I5tVIz9v1643653988129082291 1
 89/home/luca/Programming/sonia-page/node_modules/@babel/helper-get-function-arity/README.md1643654317332000000 0
 101/home/luca/Programming/sonia-page/node_modules/.core-js-Ejgh0BSV/features/reflect/set-prototype-of.js1643654001324734292 0
@@ -7752,6 +7773,7 @@
 79/home/luca/Programming/sonia-page/.cache/0c/c37614d975d2c6d4c6ee711d60d4dc.json1643381052724923260 0
 81/home/luca/Programming/sonia-page/node_modules/browserify-sign/node_modules/bn.js1643654320864291307 1
 102/home/luca/Programming/sonia-page/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruble-sign.svg1643654799388000000 0
+65/home/luca/Programming/sonia-page/dist/fa-solid-900.8c417ffe.woff1643744256160958290 0
 94/home/luca/Programming/sonia-page/node_modules/es-abstract/2020/CanonicalNumericIndexString.js1643654318618000000 0
 66/home/luca/Programming/sonia-page/node_modules/es-abstract/helpers1643654321400277124 1
 83/home/luca/Programming/sonia-page/node_modules/.fast-url-parser-MRXPwQ32/.npmignore1643653988673067946 0
@@ -9836,6 +9858,7 @@
 74/home/luca/Programming/sonia-page/node_modules/normalize-path/package.json1643654295865000000 0
 97/home/luca/Programming/sonia-page/node_modules/.core-js-Ejgh0BSV/modules/esnext.object.has-own.js1643654000440757607 0
 76/home/luca/Programming/sonia-page/node_modules/.color-name-MWm9TtZi/index.js1643653995692882825 0
+60/home/luca/Programming/sonia-page/dist/index.b5b27c11.js.map1643744601177407118 0
 92/home/luca/Programming/sonia-page/node_modules/.readable-stream-S5xkMbVp/writable-browser.js1643653988309077544 0
 79/home/luca/Programming/sonia-page/node_modules/.internal-slot-1qMwILBn/index.js1643653988009085456 0
 73/home/luca/Programming/sonia-page/node_modules/core-js/actual/date/now.js1643654304625999000 0
@@ -10097,6 +10120,7 @@
 66/home/luca/Programming/sonia-page/node_modules/lru-cache/README.md1643654302219000000 0
 62/home/luca/Programming/sonia-page/node_modules/yaml/types.d.ts1643654312421000000 0
 88/home/luca/Programming/sonia-page/node_modules/@babel/core/node_modules/semver/semver.js1643654303960000000 0
+65/home/luca/Programming/sonia-page/dist/fa-brands-400.4257408a.ttf1643744256220958307 0
 81/home/luca/Programming/sonia-page/node_modules/.imurmurhash-TxFlRlLn/package.json1643654005048636073 0
 65/home/luca/Programming/sonia-page/node_modules/.filelist-h0MHU0t01643653993112950864 1
 86/home/luca/Programming/sonia-page/node_modules/.path-is-absolute-vPi3TgIG/package.json1643653987837089991 0
@@ -10319,7 +10343,7 @@
 68/home/luca/Programming/sonia-page/node_modules/is-arguments/index.js1643654318269999000 0
 75/home/luca/Programming/sonia-page/node_modules/core-js/stable/math/trunc.js1643654304625999000 0
 81/home/luca/Programming/sonia-page/node_modules/get-intrinsic/test/GetIntrinsic.js1643654318609999000 0
-44/home/luca/Programming/sonia-page/.gitignore1643355648135629459 0
+44/home/luca/Programming/sonia-page/.gitignore1643655369050158075 0
 58/home/luca/Programming/sonia-page/node_modules/ejs/LICENSE1643654300588999000 0
 91/home/luca/Programming/sonia-page/node_modules/.stream-browserify-ZrAUwKGB/test/pipeline.js1643654019452256126 0
 85/home/luca/Programming/sonia-page/node_modules/core-js/stable/instance/starts-with.js1643654304625999000 0
@@ -12935,6 +12959,7 @@
 57/home/luca/Programming/sonia-page/node_modules/parse-asn11643654321052286332 1
 87/home/luca/Programming/sonia-page/node_modules/@swc/helpers/src/_non_iterable_spread.js1643654305348999000 0
 87/home/luca/Programming/sonia-page/node_modules/abortcontroller-polyfill/src/polyfill.js1643654300822999000 0
+60/home/luca/Programming/sonia-page/dist/index.975ef6c8.js.map1643744375601057446 0
 93/home/luca/Programming/sonia-page/node_modules/core-js/modules/es.array-buffer.constructor.js1643654304625999000 0
 66/home/luca/Programming/sonia-page/node_modules/parse-asn1/index.js1643654318496999000 0
 90/home/luca/Programming/sonia-page/node_modules/.core-js-Ejgh0BSV/internals/get-iterator.js1643654000640752332 0
@@ -14677,6 +14702,7 @@
 92/home/luca/Programming/sonia-page/node_modules/.es-abstract-VyRP7Puy/2020/Number/lessThan.js1643653988669068052 0
 88/home/luca/Programming/sonia-page/node_modules/@popperjs/core/lib/utils/mergeByName.d.ts1643654294914999000 0
 104/home/luca/Programming/sonia-page/node_modules/@fortawesome/fontawesome-free/svgs/solid/vest-patches.svg1643654799388000000 0
+60/home/luca/Programming/sonia-page/dist/landing.a12c5ac3.jpeg1643744359189037969 0
 43/home/luca/Programming/sonia-page/.cache/7f1643316945113898635 1
 85/home/luca/Programming/sonia-page/node_modules/.highlight.js-JwvP3rFG/scss/ocean.scss1643653996056873225 0
 77/home/luca/Programming/sonia-page/node_modules/.ansi-escapes-zg5nfvTU/license1643654025896086123 0
@@ -15848,6 +15874,7 @@
 98/home/luca/Programming/sonia-page/node_modules/css-tree/node_modules/source-map/lib/source-node.js1643654313382999000 0
 83/home/luca/Programming/sonia-page/node_modules/caniuse-lite/data/features/webhid.js1643654308854000000 0
 95/home/luca/Programming/sonia-page/node_modules/caniuse-lite/data/features/css-letter-spacing.js1643654308854000000 0
+61/home/luca/Programming/sonia-page/dist/index.b10d73a7.css.map1643744359185037964 0
 83/home/luca/Programming/sonia-page/node_modules/caniuse-lite/data/features/hidden.js1643654308854000000 0
 92/home/luca/Programming/sonia-page/node_modules/caniuse-lite/data/features/resource-timing.js1643654308854000000 0
 90/home/luca/Programming/sonia-page/node_modules/caniuse-lite/data/features/css-clip-path.js1643654308854000000 0
@@ -18716,6 +18743,7 @@
 84/home/luca/Programming/sonia-page/node_modules/es-abstract/5/IsAccessorDescriptor.js1643654318618000000 0
 67/home/luca/Programming/sonia-page/node_modules/es-abstract/index.js1643654318618000000 0
 71/home/luca/Programming/sonia-page/node_modules/es-abstract/CHANGELOG.md1643654318618000000 0
+66/home/luca/Programming/sonia-page/dist/fa-regular-400.aa2de766.eot1643744256216958305 0
 43/home/luca/Programming/sonia-page/.cache/471643316945101889653 1
 101/home/luca/Programming/sonia-page/node_modules/.core-js-Ejgh0BSV/modules/esnext.string.code-points.js1643654000444757500 0
 68/home/luca/Programming/sonia-page/node_modules/es-abstract/es2021.js1643654318618000000 0
