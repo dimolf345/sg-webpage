@@ -8,8 +8,12 @@
   color: #f5bc46;
 }
 
-@include media-breakpoint-up(lg) {
-  header {
-    padding: 2rem 0;
-  }
+.logo {
+  height: 40px;
 }
+
+// @include media-breakpoint-up(lg) {
+//   header {
+//     padding: 2rem 0;
+//   }
+// }

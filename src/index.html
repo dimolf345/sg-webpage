@@ -1,228 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/all.js">
-  </script>
-  <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo-resized.png"
+      type="image/x-icon"
+    />
+    <script
+      defer
+      src="../node_modules/@fortawesome/fontawesome-free/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" href="./scss/main.scss" />
-  <!--load all styles -->
-  <title>Sonia Gentile | Career Coaching</title>
-</head>
+    <!--load all styles -->
+    <title>Sonia Gentile | Career Coaching</title>
+  </head>
 
-<body class="bg-light">
-  <header class="container ">
-    <nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="main navbar">
-      <div class="container">
-        <div class="logo-container">
-          <a class="navbar-brand" href="#">Sonia Gentile</a>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
-          aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="navbar-toggler-icon flex-center">
-            <i class="fas fa-bars"></i>
+  <body class="bg-light">
+    <header class="max-vw-100">
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+        aria-label="main navbar"
+      >
+        <div class="container">
+          <div class="logo-container">
+            <a class="navbar-brand" href="#">
+              <img
+                class="logo"
+                src="./assets/images/logo-resized.png"
+                alt="Sonia Gentile Logo"
+              />
+            </a>
           </div>
-        </button>
 
-        <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="navbar-nav mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Chi sono</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cosa faccio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Contatti</a>
-            </li>
-          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-navbar"
+            aria-controls="main-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="navbar-toggler-icon flex-center">
+              <i class="fas fa-bars"></i>
+            </div>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Chi sono</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#what-i-do">Cosa faccio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contatti</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <!-- Landing Section -->
-    <section class="landing container container-fluid-sm p-0">
-      <div class="row ">
-        <!-- Text container -->
-        <div class="col-md-6 col-sm-12 text-container flex-center--column" data-aos="fade-right">
-          <h1>Sonia Gentile</h1>
-          <hr class="heading-divider" />
-          <h2>Career Coach</h2>
-          <hr />
-          <p class="px-2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Ratione, praesentium ipsam! Beatae aut, praesentium harum ullam
-            adipisci exercitationem rerum veritatis.
-          </p>
+      </nav>
+    </header>
+    <main>
+      <!-- Landing Section -->
+      <section class="landing container container-fluid-sm p-0">
+        <div class="row p-0 m-0">
+          <!-- Text container -->
+          <div
+            class="col-md-6 col-sm-12 text-container flex-center--column"
+            data-aos="fade-right"
+          >
+            <h1>
+              Sonia Gentile
+              <hr class="heading-divider" />
+              <span class="h2">Career Coach</span>
+            </h1>
+            <p class="px-2">
+              Consulenza e servizi per il tuo successo professionale.
+            </p>
+            <div class="btn-container">
+              <a href="#what-i-do" class="btn btn-outline-dark mx-2"
+                >Scopri di più</a
+              >
+              <a href="#contact" class="btn btn-outline-dark mx-2"
+                >Contattami</a
+              >
+            </div>
+          </div>
+          <!-- Image container -->
+          <div data-aos="fade-right" class="landing-background"></div>
+          <div
+            class="col-md-6 col-sm-12 image-container"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/images/landing.jpeg"
+              alt="Sonia gentile picture"
+            />
+          </div>
         </div>
-        <!-- Image container -->
-        <div data-aos="fade-right" class="landing-background"></div>
-        <div class="col-md-6 col-sm-12 image-container" data-aos="fade-left" data-aos-delay="400">
-          <img class="img-fluid" src="./assets/images/landing.jpeg" alt="Sonia gentile picture" />
-        </div>
-      </div>
-      </div>
-    </section>
-    <section class="whatido container">
-
-
-      <h2 data-aos="fade-left" data-aos-duration="1200" class="text-center mx-auto">Servizi su misura per aiutarti nella
-        ricerca dell'occupazione desiderata</h2>
-      <hr class="featurette-divider" />
-      <div class="row">
-
-        <!-- 3 column layout with item and rounded img-->
-        <!-- First Item -->
-        <div class="col-md-4 flex-center--column mt-3" data-aos="fade-in" data-aos-delay="400">
-          <svg class="bd-placeholder-img shadow-lg" width="180" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h3 class="text-center flex-center--column">Career Coaching</h3>
-          <p class="text-center">
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
-          </p>
-        </div>
-        <!-- Second Item -->
-        <div class="col-md-4 flex-center--column mt-3 " data-aos="fade-in" data-aos-delay="800">
-          <svg class="bd-placeholder-img shadow-lg " width="180" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-          <!-- Third Item -->
-          <h3 class="text-center flex-center--column">
-            Scrittura Professionale
-          </h3>
-          <p class="text-center">
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
-          </p>
-        </div>
-
-        <div class="col-md-4 flex-center--column mt-3" data-aos="fade-in" data-aos-delay="800">
-          <svg class="bd-placeholder-img shadow-lg" width="180" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h3 class="text-center flex-center--column">
-            Reputazione Online
-          </h3>
-          <p class="text-center">
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
-          </p>
-        </div>
-
-        <!-- /.col-md-4 -->
-
-      </div>
-      <!-- /.row -->
-    </section>
-    <section class="details">
-      <div class="container">
+      </section>
+      <section class="whatido container" id="what-i-do">
+        <h2
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          class="text-center mx-auto"
+        >
+          Servizi su misura per aiutarti nella ricerca dell'occupazione
+          desiderata
+        </h2>
         <hr class="featurette-divider" />
+        <div class="row">
+          <!-- 3 column layout with item and rounded img-->
+          <!-- First Item -->
+          <div
+            class="col-md-4 flex-center--column mt-3"
+            data-aos="fade-in"
+            data-aos-delay="400"
+          >
+            <svg
+              class="bd-placeholder-img shadow-lg"
+              width="180"
+              height="180"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">
-              First featurette heading.
-              <span class="text-muted">It’ll blow your mind.</span>
-            </h2>
-            <p class="lead">
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
+            <h3 class="text-center flex-center--column">Career Coaching</h3>
+            <p class="text-center">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
             </p>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" focusable="false">
+          <!-- Second Item -->
+          <div
+            class="col-md-4 flex-center--column mt-3"
+            data-aos="fade-in"
+            data-aos-delay="800"
+          >
+            <svg
+              class="bd-placeholder-img shadow-lg"
+              width="180"
+              height="180"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
             </svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-              Oh yeah, it’s that good.
-              <span class="text-muted">See for yourself.</span>
-            </h2>
-            <p class="lead">
-              Another featurette? Of course. More placeholder content here to
-              give you an idea of how this layout would work with some actual
-              real-world content in place.
+            <!-- Third Item -->
+            <h3 class="text-center flex-center--column">
+              Scrittura Professionale
+            </h3>
+            <p class="text-center">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
             </p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <div
+            class="col-md-4 flex-center--column mt-3"
+            data-aos="fade-in"
+            data-aos-delay="800"
+          >
+            <svg
+              class="bd-placeholder-img shadow-lg"
+              width="180"
+              height="180"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
             </svg>
-          </div>
-        </div>
 
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">
-              And lastly, this one. <span class="text-muted">Checkmate.</span>
-            </h2>
-            <p class="lead">
-              And yes, this is the last block of representative placeholder
-              content. Again, not really intended to be actually read, simply
-              here to give you a better view of what this would look like with
-              some actual content. Your content.
+            <h3 class="text-center flex-center--column">Reputazione Online</h3>
+            <p class="text-center">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
             </p>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-            </svg>
-          </div>
+
+          <!-- /.col-md-4 -->
         </div>
+        <!-- /.row -->
+      </section>
+      <section class="details">
+        <div class="container">
+          <hr class="featurette-divider" />
 
-        <hr class="featurette-divider" />
-      </div>
-    </section>
-  </main>
-  <script type="module" src="index.js"></script>
-</body>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">
+                First featurette heading.
+                <span class="text-muted">It’ll blow your mind.</span>
+              </h2>
+              <p class="lead">
+                Some great placeholder content for the first featurette here.
+                Imagine some exciting prose here.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <svg
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" />
+                <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+              </svg>
+            </div>
+          </div>
 
+          <hr class="featurette-divider" />
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">
+                Oh yeah, it’s that good.
+                <span class="text-muted">See for yourself.</span>
+              </h2>
+              <p class="lead">
+                Another featurette? Of course. More placeholder content here to
+                give you an idea of how this layout would work with some actual
+                real-world content in place.
+              </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <svg
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" />
+                <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+              </svg>
+            </div>
+          </div>
+
+          <hr class="featurette-divider" />
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">
+                And lastly, this one. <span class="text-muted">Checkmate.</span>
+              </h2>
+              <p class="lead">
+                And yes, this is the last block of representative placeholder
+                content. Again, not really intended to be actually read, simply
+                here to give you a better view of what this would look like with
+                some actual content. Your content.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <svg
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" />
+                <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+              </svg>
+            </div>
+          </div>
+
+          <hr class="featurette-divider" />
+        </div>
+      </section>
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>

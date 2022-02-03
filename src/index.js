@@ -8,3 +8,13 @@ AOS.init({
   once: true,
   mirror: false,
 });
+
+const navbar = document.querySelector(".navbar");
+
+// window.addEventListener("scroll", function () {
+//   if (this.scrollY > 300) {
+//     navbar.classList.add("shadow");
+//   } else {
+//     navbar.classList.remove("shadow");
+//   }
+// });
