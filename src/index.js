@@ -9,12 +9,16 @@ AOS.init({
   mirror: false,
 });
 
-const navbar = document.querySelector(".navbar");
+let navbar = document.querySelector("#topNav");
 
-// window.addEventListener("scroll", function () {
-//   if (this.scrollY > 300) {
-//     navbar.classList.add("shadow");
-//   } else {
-//     navbar.classList.remove("shadow");
-//   }
-// });
+function toggleNavbarShadow() {
+  if (this.scrollY >= 300) {
+    navbar.classList.add("shadow");
+  } else {
+    navbar.classList.remove("shadow");
+  }
+}
+
+window.addEventListener("load", function () {
+  window.addEventListener("scroll", toggleNavbarShadow);
+});

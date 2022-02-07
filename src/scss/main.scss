@@ -1,7 +1,71 @@
-@import "./vendors/custom-bootstrap";
-@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
-@import "./base/reset";
-@import "./abstracts/utilities";
-@import "./layout/general";
-@import "./layout/landing";
-@import "./components/navbar";
+//custom variables
+$text-color: #495057;
+$custom-brown: #946b40;
+
+// bootstrap variables override
+$body-color: $text-color;
+$link-decoration: none;
+$link-color: $custom-brown;
+$link-hover-decoration: underline overline !important;
+$light: #fefefe;
+
+@import "general";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "responsive";
+
+// ===========HEADER=========
+header {
+  text-transform: uppercase;
+}
+
+#topNav {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+// .navbar-toggler {
+//   margin-left: auto;
+// }
+
+.nav-link.active,
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: $custom-brown;
+  border-radius: 0;
+}
+
+#mobileNav {
+  ul {
+    align-items: center;
+    padding-top: 2rem;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+// ===========LANDING SECTION==========
+@include media-breakpoint-up(md) {
+  #landing {
+    padding-top: 3rem;
+  }
+}
+
+.landing > .container {
+  position: relative;
+}
+
+.landing-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -9;
+}
+
+// .image-container {
+//   max-height: 70vh;
+// }

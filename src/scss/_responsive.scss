@@ -1,0 +1,9 @@
+//========MEDIUM SCREEN QUERIES=========/
+@include media-breakpoint-down(md) {
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+  .social {
+    margin: 0 auto;
+  }
+}
