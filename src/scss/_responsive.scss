@@ -1,9 +1,40 @@
 //========MEDIUM SCREEN QUERIES=========/
 @include media-breakpoint-down(md) {
+  section {
+    height: 100vh;
+  }
+
   .navbar-toggler {
     margin-right: 1rem;
   }
   .social {
     margin: 0 auto;
+  }
+
+  #landing {
+    background-color: $warning;
+    padding-top: 1.5rem;
+  }
+
+  .image-container {
+    order: -1;
+    margin-bottom: 4%;
+    img {
+      display: block;
+      border-radius: 50%;
+      box-shadow: $custom-box-shadow;
+      max-height: 55vh;
+      margin: 0 auto;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .background {
+    clip-path: polygon(0 0, 60% 0, 54% 100%, 0% 100%);
+  }
+
+  .image-container {
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 3% 100%);
   }
 }

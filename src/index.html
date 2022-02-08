@@ -21,7 +21,7 @@
   <body
     class="bg-light"
     data-bs-spy="scroll"
-    data-bs-offset="52"
+    data-bs-offset="67"
     data-bs-target="#topNav"
     tabindex="0"
   >
@@ -110,34 +110,48 @@
     </header>
     <main>
       <!-- Lading Section -->
-      <section class="vh-100 offset landing" id="landing">
+      <section class="landing" id="landing">
         <div class="container">
-          <div class="landing-background"></div>
+          <!-- Background clipped for min-width md -->
+          <div
+            data-aos="fade-right"
+            class="background bg-warning d-none d-md-block"
+          ></div>
           <div class="row">
-            <div class="text-container col-md-6 col-sm-12">
-              <h1>Test</h1>
+            <!-- Text-container -->
+            <div class="text-container text-center col-md-6 col-sm-12">
+              <h1>Sonia Gentile</h1>
+              <hr class="w-75 mx-auto border border-2 border-dark opacity-75" />
+              <h2>Career Coach</h2>
+              <p>Citazione illuminante sul career coaching</p>
             </div>
+            <!-- Image container -->
             <div class="image-container col-md-6 col-sm-12">
               <picture>
                 <source
                   class="img-fluid"
                   srcset="./assets/images/landing.jpeg"
-                  media="(max-width: 1200px)"
+                  media="(max-width: 1400px)"
                 />
                 <img
+                  data-aos="fade-left"
                   class="img-fluid"
                   src="./assets/images/landing-resized.jpg"
                   alt="Sonia Gentile che sorride"
                 />
               </picture>
             </div>
+            <!-- CTA -->
           </div>
         </div>
+        <div class="container">
+          <h3>other text</h3>
+        </div>
       </section>
-      <section class="vh-100 bg-info offset" id="what-i-do">
-        <h1>Test</h1>
+      <section class="vh-100 bg-info" id="what-i-do">
+        <h3>Test</h3>
       </section>
-      <section class="vh-100 bg-warning offset" id="contact">
+      <section class="vh-100 bg-warning" id="contact">
         <h1>Test</h1>
       </section>
     </main>

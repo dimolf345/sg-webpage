@@ -1,10 +1,14 @@
 html {
-  scroll-padding-top: 59px;
+  scroll-padding-top: 66px;
 }
 
 body {
   position: relative;
   overflow-y: scroll;
+}
+
+hr {
+  margin: 0.5rem 0 !important;
 }
 
 // OFFSET for SCROLLSPY
