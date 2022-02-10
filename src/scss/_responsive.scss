@@ -27,14 +27,35 @@
       margin: 0 auto;
     }
   }
+
+  #what-i-do {
+    padding: 1rem 0
+  }
 }
 
 @include media-breakpoint-up(md) {
+  #topNav {
+    padding: 2rem 1rem;
+  }
+
+  #landing {
+    padding-top: 3rem;
+  }
+
   .background {
-    clip-path: polygon(0 0, 60% 0, 54% 100%, 0% 100%);
+    clip-path: polygon(0 0, 62% 0, 56% 100%, 0% 100%);
   }
 
   .image-container {
     clip-path: polygon(13% 0, 100% 0, 100% 100%, 3% 100%);
+    padding-right: 0;
+  }
+
+  .cta {
+    background-color: $light-gray;
+  }
+
+  #what-i-do {
+    padding-top: 2.5rem
   }
 }
