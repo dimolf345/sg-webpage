@@ -111,65 +111,68 @@
     <main>
       <!-- Lading Section -->
       <section class="landing container" id="landing">
-          <!-- Background clipped for min-width md -->
-          <div class="row">
+        <!-- Background clipped for min-width md -->
+        <div class="row">
+          <div
+            data-aos="fade-right"
+            class="background bg-warning d-none d-md-block"
+          ></div>
+          <!-- Text-container -->
+          <div class="text-container text-center col-md-6 col-sm-12">
+            <h1>Sonia Gentile</h1>
+            <hr class="w-75 mx-auto border border-2 border-dark opacity-75" />
+            <h2>Career Coach</h2>
+            <p>Citazione illuminante sul career coaching</p>
+          </div>
+          <!-- Image container -->
+          <div class="image-container col-md-6 col-sm-12">
+            <picture>
+              <source
+                class="img-fluid"
+                srcset="./assets/images/landing.jpeg"
+                media="(max-width: 1400px)"
+              />
+              <img
+                data-aos="fade-left"
+                class="img-fluid"
+                src="./assets/images/landing-resized.jpg"
+                alt="Sonia Gentile che sorride"
+              />
+            </picture>
+          </div>
+        </div>
+        <!-- CTA  section with background image-->
+        <div class="row cta">
+          <div class="col-md-7 col-lg-7 col-sm-12">
+            <h3 class="text-center">
+              Consulenza e servizi per il tuo successo professionale.
+            </h3>
             <div
-              data-aos="fade-right"
-              class="background bg-warning d-none d-md-block"
-            ></div>
-            <!-- Text-container -->
-            <div class="text-container text-center col-md-6 col-sm-12">
-              <h1>Sonia Gentile</h1>
-              <hr class="w-75 mx-auto border border-2 border-dark opacity-75" />
-              <h2>Career Coach</h2>
-              <p>Citazione illuminante sul career coaching</p>
-            </div>
-            <!-- Image container -->
-            <div class="image-container col-md-6 col-sm-12">
-              <picture>
-                <source
-                  class="img-fluid"
-                  srcset="./assets/images/landing.jpeg"
-                  media="(max-width: 1400px)"
-                />
-                <img
-                  data-aos="fade-left"
-                  class="img-fluid"
-                  src="./assets/images/landing-resized.jpg"
-                  alt="Sonia Gentile che sorride"
-                />
-              </picture>
-            </div>
-            <!-- CTA -->
-          </div>
-          <div class="row justify-content-center py-5 cta">
-            <div class="col-md-7 col-lg-7 col-sm-12">
-              <h3 class="text-center">
-                Consulenza e servizi per il tuo successo professionale.
-              </h3>
-              <div
-                class="btn-container py-3 d-flex justify-content-center text-uppercase"
+              class="cta-btn-container py-3 d-flex justify-content-center text-uppercase"
+            >
+              <a href="#what-i-do" class="btn mx-2 btn-primary"
+                >Scopri di più</a
               >
-                <a href="#what-i-do" class="btn mx-2 btn-primary"
-                  >Scopri di più</a
-                >
-                <a href="#contact" class="d-md-none btn mx-2 btn-secondary"
-                  >Contattami</a
-                >
-                <a
-                  href="#contact"
-                  class="d-none d-md-inline btn mx-2 btn-warning"
-                  >Contattami</a
-                >
-              </div>
+              <a href="#contact" class="d-md-none btn mx-2 btn-secondary"
+                >Contattami</a
+              >
+              <a href="#contact" class="d-none d-md-inline btn mx-2 btn-warning"
+                >Contattami</a
+              >
             </div>
           </div>
+        </div>
+        <!-- End of landing section -->
       </section>
       <section class="min-vh-100" id="what-i-do">
         <div class="container bg-light">
           <!-- Three columns of text below the carousel -->
-          <div class="row">
-            <div class="col-md-4 feature" data-aos="fade-in" data-aos-delay="300">
+          <div class="row justify-content-center">
+            <div
+              class="col-md-4 feature"
+              data-aos="fade-in"
+              data-aos-delay="300"
+            >
               <svg
                 class="bd-placeholder-img rounded-circle"
                 width="140"
@@ -192,7 +195,11 @@
               </p>
             </div>
             <!-- /.col-lg-4 -->
-            <div data-aos-delay="600" data-aos="fade-in" class="col-md-4 feature">
+            <div
+              data-aos-delay="600"
+              data-aos="fade-in"
+              class="col-md-4 feature"
+            >
               <svg
                 class="bd-placeholder-img rounded-circle"
                 width="140"
@@ -215,7 +222,11 @@
               </p>
             </div>
             <!-- /.col-lg-4 -->
-            <div class="col-md-4 feature" data-aos="fade-in" data-aos-delay="900">
+            <div
+              class="col-md-4 feature"
+              data-aos="fade-in"
+              data-aos-delay="900"
+            >
               <svg
                 class="bd-placeholder-img rounded-circle"
                 width="140"
@@ -238,7 +249,107 @@
               </p>
             </div>
             <!-- /.col-lg-4 -->
+            <!-- Accordion -->
+            <article class="col-sm-12 col-md-10 col-lg-8 mt-5">
+              <h3 class="text-center mb-3">Perche' il career coaching?</h3>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong>
+                      It is shown by default, until the collapse plugin adds the
+                      appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree"
+                    >
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
+
           <!-- /.row -->
         </div>
       </section>

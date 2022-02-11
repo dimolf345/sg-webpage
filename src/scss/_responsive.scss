@@ -29,7 +29,7 @@
   }
 
   #what-i-do {
-    padding: 1rem 0
+    padding: 1rem 0;
   }
 }
 
@@ -52,10 +52,21 @@
   }
 
   .cta {
-    background-color: $light-gray;
+    background-image: linear-gradient(rgba(white, 0.2), rgba(white, 0.2)), url('../assets/images/success.jpg');
+    min-height: 33vh;
+    background-size: cover;
+    position: relative;
+    color: white;
+    background-position: center center;
+
+    .btn {
+      font-weight: 500;
+    }
   }
 
+
+
   #what-i-do {
-    padding-top: 2.5rem
+    padding-top: 2.5rem;
   }
 }

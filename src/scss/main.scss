@@ -77,10 +77,16 @@ header {
   justify-content: center;
 }
 
+.cta {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 //==========WHAT-I-DO SECTION ===========/
 #what-i-do {
-  min-height: 100vh;
   height: 100%;
+  padding-bottom: 3rem;
 }
 
 
