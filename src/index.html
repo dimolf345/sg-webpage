@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -118,14 +118,14 @@
             class="background bg-warning d-none d-md-block"
           ></div>
           <!-- Text-container -->
-          <div class="text-container text-center col-md-6 col-sm-12">
+          <div class="landing-text text-center col-md-6 col-sm-12">
             <h1>Sonia Gentile</h1>
             <hr class="w-75 mx-auto border border-2 border-dark opacity-75" />
             <h2>Career Coach</h2>
             <p>Citazione illuminante sul career coaching</p>
           </div>
           <!-- Image container -->
-          <div class="image-container col-md-6 col-sm-12">
+          <div class="landing-image col-md-6 col-sm-12">
             <picture>
               <source
                 class="img-fluid"
@@ -353,8 +353,78 @@
           <!-- /.row -->
         </div>
       </section>
-      <section class="vh-100 bg-warning" id="contact">
-        <h1>Test</h1>
+      <section id="who-am-i" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-5 col-lg-5">
+            <img class="img-fluid" src="./assets/images/landing.jpeg" alt="" />
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7">
+            <h3 class="text-center">Perchè scegliermi?</h3>
+            <p class="lead">
+              Ho iniziato il mio percorso nelle risorse umane nel 2015.
+            </p>
+            <p class="lead">
+              Ho lavorato per grandi aziende nell'ambito dell'HR, tra cui KPMG,
+              Deloitte, ecc..
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="vh-100 container" id="contact">
+        <!-- Contact section with Form -->
+        <div class="row bg-warning justify-content-center py-3">
+          <div class="col-sm-12 col-md-7 col-lg 6">
+            <h3 class="h4 text-center">
+              Non ti ho convinto? Contattami per una prima consulenza gratuita!
+            </h3>
+            <!-- Form -->
+            <form aria-label="contatta sonia gentile" action="">
+              <!-- Name and Surname -->
+              <div class="mb-3">
+                <label for="nominativo" class="form-label"
+                  >Nome e Cognome</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nominativo"
+                  placeholder="Inserisci il tuo Nome e Cognome"
+                />
+              </div>
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Indirizzo email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Inserisci il tuo indirizzo email"
+                />
+                <div id="emailHelp" class="form-text">
+                  Il tuo indirizzo email non viene condiviso con nessuno.
+                </div>
+              </div>
+              <!-- Message textarea -->
+              <div class="mb-3">
+                <label for="messaggio" class="form-label">Messaggio</label>
+                <textarea
+                  rows="4"
+                  type="text"
+                  class="form-control"
+                  id="messaggio"
+                  placeholder="Scrivi il tuo messaggio"
+                />
+              </div>
+              <!-- FIle Upload -->
+              <div class="mb-3">
+                <label class="form-label" for="customFile">Carica file</label>
+                <input type="file" class="form-control" id="customFile" />
+              </div>
+              <button type="submit" class="btn btn-primary btn-md text-uppercase">Invia &rarr;</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <script type="module" src="index.js"></script>
