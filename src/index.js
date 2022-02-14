@@ -38,3 +38,6 @@ function toggleNavbarShadow() {
 window.addEventListener("load", function () {
   window.addEventListener("scroll", toggleNavbarShadow);
 });
+
+//=============Netlify form submission======/
+// document.querySelector("form").addEventListener("submit", handleSubmit);

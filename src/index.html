@@ -164,7 +164,7 @@
         </div>
         <!-- End of landing section -->
       </section>
-      <section class="min-vh-100" id="what-i-do">
+      <section id="what-i-do">
         <div class="container bg-light">
           <!-- Three columns of text below the carousel -->
           <div class="row justify-content-center">
@@ -355,11 +355,15 @@
       </section>
       <section id="who-am-i" class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-5 col-lg-5">
-            <img class="img-fluid" src="./assets/images/landing.jpeg" alt="" />
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <img
+              class="img-fluid background-yellow"
+              src="./assets/images/profile-2-resized.jpeg"
+              alt="Sonia gentile poggiata su un divano"
+            />
           </div>
-          <div class="col-sm-12 col-md-7 col-lg-7">
-            <h3 class="text-center">Perchè scegliermi?</h3>
+          <div class="col-sm-12 col-md-12 col-lg-7 margin-mobile">
+            <h3 class="text-center mb-3">Perchè scegliermi?</h3>
             <p class="lead">
               Ho iniziato il mio percorso nelle risorse umane nel 2015.
             </p>
@@ -370,7 +374,7 @@
           </div>
         </div>
       </section>
-      <section class="vh-100 container" id="contact">
+      <section class="container" id="contact">
         <!-- Contact section with Form -->
         <div class="row bg-warning justify-content-center py-3">
           <div class="col-sm-12 col-md-7 col-lg 6">
@@ -378,13 +382,19 @@
               Non ti ho convinto? Contattami per una prima consulenza gratuita!
             </h3>
             <!-- Form -->
-            <form aria-label="contatta sonia gentile" action="">
+            <form
+              name="contact"
+              data-netlify="true"
+              aria-label="contatta sonia gentile"
+              method="POST"
+            >
               <!-- Name and Surname -->
               <div class="mb-3">
                 <label for="nominativo" class="form-label"
                   >Nome e Cognome</label
                 >
                 <input
+                  name="nominativo"
                   type="text"
                   class="form-control"
                   id="nominativo"
@@ -395,6 +405,7 @@
               <div class="mb-3">
                 <label for="email" class="form-label">Indirizzo email</label>
                 <input
+                  name="email"
                   type="email"
                   class="form-control"
                   id="email"
@@ -409,6 +420,7 @@
               <div class="mb-3">
                 <label for="messaggio" class="form-label">Messaggio</label>
                 <textarea
+                  name="messaggio"
                   rows="4"
                   type="text"
                   class="form-control"
@@ -421,7 +433,12 @@
                 <label class="form-label" for="customFile">Carica file</label>
                 <input type="file" class="form-control" id="customFile" />
               </div>
-              <button type="submit" class="btn btn-primary btn-md text-uppercase">Invia &rarr;</button>
+              <button
+                type="submit"
+                class="btn btn-primary btn-md text-uppercase"
+              >
+                Invia &rarr;
+              </button>
             </form>
           </div>
         </div>
