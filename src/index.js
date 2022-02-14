@@ -1,6 +1,7 @@
 "use strict";
 require("bootstrap");
 require("@fortawesome/fontawesome-free");
+const { computeStyles } = require("@popperjs/core");
 const AOS = require("aos");
 // Starting Animate On Scroll (AOS)
 AOS.init({
@@ -39,5 +40,9 @@ window.addEventListener("load", function () {
   window.addEventListener("scroll", toggleNavbarShadow);
 });
 
-//=============Netlify form submission======/
-// document.querySelector("form").addEventListener("submit", handleSubmit);
+//=============Copy======/
+window.onload = function () {
+  let copy = document.getElementById("copy");
+  let date = new Date();
+  copy.textContent = date.getFullYear();
+};
