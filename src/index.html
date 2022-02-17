@@ -9,10 +9,10 @@
       href="./assets/images/logo-resized.png"
       type="image/x-icon"
     />
-    <script
+    <!-- <script
       defer
       src="../node_modules/@fortawesome/fontawesome-free/js/all.js"
-    ></script>
+    /></script> -->
     <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" href="./scss/main.scss" />
     <!--load all styles -->
@@ -110,7 +110,7 @@
     </header>
     <main>
       <!-- Lading Section -->
-      <section class="landing container" id="landing">
+      <section class="landing container mobile-100vh" id="landing">
         <!-- Background clipped for min-width md -->
         <div class="row">
           <div
@@ -144,7 +144,7 @@
         <!-- CTA  section with background image-->
         <div class="row cta">
           <div class="col-md-7 col-lg-7 col-sm-12">
-            <h3 class="text-center">
+            <h3 class="text-centter">
               Consulenza e servizi per il tuo successo professionale.
             </h3>
             <div
@@ -374,9 +374,96 @@
           </div>
         </div>
       </section>
+      <!-- TESTIMONIALS aSLIDER-->
+      <section class="testimonials container px-0 h100">
+        <h3 class="text-center">Cosa dicono di me</h3>
+        <!-- CAROUSEL START -->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide carousel-fade py-5"
+          data-bs-ride="carousel"
+        >
+          <!-- FIRST TESTIMONIAL -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Sonia Gentile</h5>
+                  <span clas="blockquote-footer"
+                    >HR Generalist presso DELOITTE</span
+                  >
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- SECOND TESTIMONIAL -->
+            <div class="carousel-item">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Luca Di Molfetta</h5>
+                  <span clas="blockquote-footer">Navy officer presso MMI</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- THIRD TESTIMONIAL -->
+            <div class="carousel-item">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Viviana Vigoroso</h5>
+                  <span clas="blockquote-footer">HR Specialist presso BDO</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- CAROUSEL END -->
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fas fa-arrow-circle-left"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fas fa-arrow-circle-right"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- END OF TESTIMONIALS -->
       <section class="container" id="contact">
         <!-- Contact section with Form -->
-        <div class="row bg-warning justify-content-center py-3">
+        <div class="row bg-warning justify-content-center py-3 h-100">
           <div class="col-sm-12 col-md-7 col-lg 6">
             <h3 class="h4 text-center">
               Non ti ho convinto? Contattami per una prima consulenza gratuita!
@@ -421,7 +508,7 @@
                 <label for="messaggio" class="form-label">Messaggio</label>
                 <textarea
                   name="messaggio"
-                  rows="4"
+                  rows="6"
                   type="text"
                   class="form-control"
                   id="messaggio"
@@ -494,6 +581,13 @@
                 </p>
               </address>
             </aside>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <p>
+              Si ringrazia
+              <a class="link-warning" href="">Luca Di Molfetta</a> per la
+              realizzazione di questo sito.
+            </p>
           </div>
         </div>
       </nav>

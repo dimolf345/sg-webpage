@@ -1,0 +1,24 @@
+.carousel {
+  border: 2px solid red;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none;
+  color: $custom-brown;
+  opacity: 1;
+}
+
+.carousel-item {
+  min-height: 300px;
+  transition: 0;
+}
+
+.carousel-item.active {
+  display: flex;
+}

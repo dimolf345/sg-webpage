@@ -1,7 +1,8 @@
 "use strict";
-require("bootstrap");
-require("@fortawesome/fontawesome-free");
-const { computeStyles } = require("@popperjs/core");
+// require("bootstrap");
+// import("@fortawesome/fontawesome-free");
+import "bootstrap";
+import "@fortawesome/fontawesome-free/css/all.css";
 const AOS = require("aos");
 // Starting Animate On Scroll (AOS)
 AOS.init({

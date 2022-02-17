@@ -1,6 +1,6 @@
 //========MEDIUM SCREEN QUERIES=========/
 @include media-breakpoint-down(md) {
-  section {
+  .mobile-100vh {
     height: 100vh;
   }
 
