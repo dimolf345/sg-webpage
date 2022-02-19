@@ -1,8 +1,10 @@
 //========MEDIUM SCREEN QUERIES=========/
 @include media-breakpoint-down(md) {
-  section {
+  .mobile-100vh {
     height: 100vh;
   }
+
+
 
   .navbar-toggler {
     margin-right: 1rem;
@@ -33,6 +35,12 @@
   }
 }
 
+@include media-breakpoint-down(lg) {
+  .margin-mobile {
+    margin-top: 3rem;
+  }
+}
+
 @include media-breakpoint-up(md) {
   #topNav {
     padding: 2rem 1rem;
@@ -52,7 +60,8 @@
   }
 
   .cta {
-    background-image: linear-gradient(rgba(white, 0.2), rgba(white, 0.2)), url('../assets/images/success.jpg');
+    background-image: linear-gradient(rgba(white, 0.2), rgba(white, 0.2)),
+      url("../assets/images/success.jpg");
     min-height: 33vh;
     background-size: cover;
     position: relative;
@@ -64,9 +73,9 @@
     }
   }
 
-
-
   #what-i-do {
     padding-top: 2.5rem;
   }
+
+
 }

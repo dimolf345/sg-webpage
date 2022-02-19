@@ -9,10 +9,10 @@
       href="./assets/images/logo-resized.png"
       type="image/x-icon"
     />
-    <script
+    <!-- <script
       defer
       src="../node_modules/@fortawesome/fontawesome-free/js/all.js"
-    ></script>
+    /></script> -->
     <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" href="./scss/main.scss" />
     <!--load all styles -->
@@ -110,7 +110,7 @@
     </header>
     <main>
       <!-- Lading Section -->
-      <section class="landing container" id="landing">
+      <section class="landing container mobile-100vh" id="landing">
         <!-- Background clipped for min-width md -->
         <div class="row">
           <div
@@ -125,7 +125,7 @@
             <p>Citazione illuminante sul career coaching</p>
           </div>
           <!-- Image container -->
-          <div class="landing-image col-md-6 col-sm-12">
+          <div data-aos="fade-left" class="landing-image col-md-6 col-sm-12">
             <picture>
               <source
                 class="img-fluid"
@@ -133,7 +133,6 @@
                 media="(max-width: 1400px)"
               />
               <img
-                data-aos="fade-left"
                 class="img-fluid"
                 src="./assets/images/landing-resized.jpg"
                 alt="Sonia Gentile che sorride"
@@ -143,7 +142,7 @@
         </div>
         <!-- CTA  section with background image-->
         <div class="row cta">
-          <div class="col-md-7 col-lg-7 col-sm-12">
+          <div class="col-md-9 col-lg-7 col-sm-12">
             <h3 class="text-center">
               Consulenza e servizi per il tuo successo professionale.
             </h3>
@@ -164,7 +163,7 @@
         </div>
         <!-- End of landing section -->
       </section>
-      <section class="min-vh-100" id="what-i-do">
+      <section id="what-i-do">
         <div class="container bg-light">
           <!-- Three columns of text below the carousel -->
           <div class="row justify-content-center">
@@ -355,11 +354,15 @@
       </section>
       <section id="who-am-i" class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-5 col-lg-5">
-            <img class="img-fluid" src="./assets/images/landing.jpeg" alt="" />
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <img
+              class="img-fluid background-yellow"
+              src="./assets/images/profile-2-resized.jpeg"
+              alt="Sonia gentile poggiata su un divano"
+            />
           </div>
-          <div class="col-sm-12 col-md-7 col-lg-7">
-            <h3 class="text-center">Perchè scegliermi?</h3>
+          <div class="col-sm-12 col-md-12 col-lg-7 margin-mobile">
+            <h3 class="text-center mb-3">Perchè scegliermi?</h3>
             <p class="lead">
               Ho iniziato il mio percorso nelle risorse umane nel 2015.
             </p>
@@ -370,21 +373,115 @@
           </div>
         </div>
       </section>
-      <section class="vh-100 container" id="contact">
+      <!-- TESTIMONIALS aSLIDER-->
+      <section class="testimonials container px-0 h100">
+        <h3 class="text-center">Cosa dicono di me</h3>
+        <!-- CAROUSEL START -->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide carousel-fade py-5"
+          data-bs-ride="carousel"
+        >
+          <!-- FIRST TESTIMONIAL -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Sonia Gentile</h5>
+                  <span clas="blockquote-footer"
+                    >HR Generalist presso DELOITTE</span
+                  >
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- SECOND TESTIMONIAL -->
+            <div class="carousel-item">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Luca Di Molfetta</h5>
+                  <span clas="blockquote-footer">Navy officer presso MMI</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- THIRD TESTIMONIAL -->
+            <div class="carousel-item">
+              <div class="card text-center w-75 mx-auto">
+                <div class="card-header">
+                  <h5>Viviana Vigoroso</h5>
+                  <span clas="blockquote-footer">HR Specialist presso BDO</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore illum at quod corporis quam placeat saepe dolorem
+                    eius consequatur eaque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- CAROUSEL END -->
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fas fa-arrow-circle-left"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fas fa-arrow-circle-right"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- END OF TESTIMONIALS -->
+      <section class="container" id="contact">
         <!-- Contact section with Form -->
-        <div class="row bg-warning justify-content-center py-3">
+        <div class="row bg-warning justify-content-center py-3 h-100">
           <div class="col-sm-12 col-md-7 col-lg 6">
             <h3 class="h4 text-center">
               Non ti ho convinto? Contattami per una prima consulenza gratuita!
             </h3>
             <!-- Form -->
-            <form aria-label="contatta sonia gentile" action="">
+            <form
+              name="contact"
+              data-netlify="true"
+              aria-label="contatta sonia gentile"
+              method="POST"
+            >
               <!-- Name and Surname -->
               <div class="mb-3">
                 <label for="nominativo" class="form-label"
                   >Nome e Cognome</label
                 >
                 <input
+                  name="nominativo"
                   type="text"
                   class="form-control"
                   id="nominativo"
@@ -395,6 +492,7 @@
               <div class="mb-3">
                 <label for="email" class="form-label">Indirizzo email</label>
                 <input
+                  name="email"
                   type="email"
                   class="form-control"
                   id="email"
@@ -409,7 +507,8 @@
               <div class="mb-3">
                 <label for="messaggio" class="form-label">Messaggio</label>
                 <textarea
-                  rows="4"
+                  name="messaggio"
+                  rows="6"
                   type="text"
                   class="form-control"
                   id="messaggio"
@@ -421,12 +520,78 @@
                 <label class="form-label" for="customFile">Carica file</label>
                 <input type="file" class="form-control" id="customFile" />
               </div>
-              <button type="submit" class="btn btn-primary btn-md text-uppercase">Invia &rarr;</button>
+              <button
+                type="submit"
+                class="btn btn-primary btn-md text-uppercase"
+              >
+                Invia &rarr;
+              </button>
             </form>
           </div>
         </div>
       </section>
     </main>
+    <footer class="container bg-dark">
+      <nav class="navbar navbar-dark text-white">
+        <div class="row nav nav-inverted w-100">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <aside class="footer-widget">
+              <h5>Seguimi su</h5>
+              <ul aria-label="socials" class="nav social">
+                <li>
+                  <a href="" class="nav-link link-warning">
+                    <i class="fab fa-lg fa-facebook"></i>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="nav-link link-warning">
+                    <i class="fab fa-lg fa-instagram"></i>
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="nav-link link-warning">
+                    <i class="fab fa-lg fa-linkedin"></i>
+                    <span class="sr-only">Linkedin</span>
+                  </a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <aside class="footer-widget">
+              <address>
+                <h2>Sonia Gentile &copy;<span id="copy"></span></h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat natus adipisci tenetur?
+                </p>
+                <p>
+                  <strong>Email: </strong>
+                  <a href="mailto:soniagentile91@gmail.com" class="link-warning"
+                    >soniagentile91@gmail.com</a
+                  >
+                </p>
+                <p>
+                  <strong>Phone: </strong>
+                  <a class="link-warning" href="tel:+95123456789"
+                    >+95123456789</a
+                  >
+                </p>
+              </address>
+            </aside>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <p>
+              Si ringrazia
+              <a class="link-warning" href="">Luca Di Molfetta</a> per la
+              realizzazione di questo sito.
+            </p>
+          </div>
+        </div>
+      </nav>
+    </footer>
     <script type="module" src="index.js"></script>
   </body>
 </html>

@@ -12,10 +12,9 @@ $warning: #f5bd42;
 $primary: $custom-brown;
 $secondary: $light-gray;
 
-
-
 @import 'general';
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import 'carousel';
 @import 'responsive';
 
 .btn {
@@ -29,11 +28,17 @@ $secondary: $light-gray;
 // ===========HEADER=========
 header {
   text-transform: uppercase;
+  animation: none;
 }
 
 #topNav {
   max-width: 1300px;
   margin: 0 auto;
+
+  .container-fluid {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 .navbar-logo {
@@ -89,7 +94,6 @@ header {
   padding-bottom: 3rem;
 }
 
-
 .feature {
   display: flex;
   flex-direction: column;
@@ -97,15 +101,16 @@ header {
   text-align: center;
 }
 
-
 //===========WHO AM I SECTION ===========/
 #who-am-i {
   padding-bottom: 3rem;
 }
 
+.background-yellow {
+  border: 10px inset $warning;
+}
 
-
-//=============CONTACT SECTION ==========// 
+//=============CONTACT SECTION ==========//
 #contact {
   label {
     font-weight: bold;

@@ -1,7 +1,9 @@
-"use strict";
-require("bootstrap");
-require("@fortawesome/fontawesome-free");
-const AOS = require("aos");
+'use strict';
+// require("bootstrap");
+// import("@fortawesome/fontawesome-free");
+import 'bootstrap';
+import '@fortawesome/fontawesome-free/css/all.css';
+const AOS = require('aos');
 // Starting Animate On Scroll (AOS)
 AOS.init({
   delay: 200,
@@ -10,10 +12,10 @@ AOS.init({
   mirror: false,
 });
 
-let navbar = document.querySelector("#topNav");
-let mobileNav = document.querySelector("#mobileNav");
-let toggler = document.querySelector(".navbar-toggler");
-let mobileNavLinks = document.querySelectorAll("#mobileNav .nav-link");
+let navbar = document.querySelector('#topNav');
+let mobileNav = document.querySelector('#mobileNav');
+let toggler = document.querySelector('.navbar-toggler');
+let mobileNavLinks = document.querySelectorAll('#mobileNav .nav-link');
 
 // ===========Automatic Navbar Close on link click=======//
 function handleNavClose() {
@@ -21,20 +23,27 @@ function handleNavClose() {
 }
 
 mobileNavLinks.forEach((link) => {
-  if (link.href.includes("#")) {
-    link.addEventListener("click", handleNavClose);
+  if (link.href.includes('#')) {
+    link.addEventListener('click', handleNavClose);
   }
 });
 
 // ===========Navbar shadow when scrolled more than 300px=========//
 function toggleNavbarShadow() {
   if (this.scrollY >= 300) {
-    navbar.classList.add("shadow");
+    navbar.classList.add('shadow');
   } else {
-    navbar.classList.remove("shadow");
+    navbar.classList.remove('shadow');
   }
 }
 
-window.addEventListener("load", function () {
-  window.addEventListener("scroll", toggleNavbarShadow);
+window.addEventListener('load', function () {
+  window.addEventListener('scroll', toggleNavbarShadow);
 });
+
+//=============Copy======/
+window.onload = function () {
+  let copy = document.getElementById('copy');
+  let date = new Date();
+  copy.textContent = date.getFullYear();
+};
