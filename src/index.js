@@ -1,10 +1,7 @@
 'use strict';
-// require("bootstrap");
-// import("@fortawesome/fontawesome-free");
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.css';
 import AOS from 'aos';
-// Starting Animate On Scroll (AOS)
 
 let navbar = document.querySelector('#topNav');
 let mobileNav = document.querySelector('#mobileNav');
@@ -31,6 +28,7 @@ function toggleNavbarShadow() {
   }
 }
 
+// Starting Animate On Scroll (AOS)
 const startAOS = AOS.init({
   delay: 200,
   duration: 1000,
@@ -49,4 +47,3 @@ window.onload = function () {
   let date = new Date();
   copy.textContent = date.getFullYear();
 };
-
