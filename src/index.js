@@ -3,14 +3,8 @@
 // import("@fortawesome/fontawesome-free");
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.css';
-const AOS = require('aos');
+import AOS from 'aos';
 // Starting Animate On Scroll (AOS)
-AOS.init({
-  delay: 200,
-  duration: 1000,
-  once: true,
-  mirror: false,
-});
 
 let navbar = document.querySelector('#topNav');
 let mobileNav = document.querySelector('#mobileNav');
@@ -37,8 +31,16 @@ function toggleNavbarShadow() {
   }
 }
 
+const startAOS = AOS.init({
+  delay: 200,
+  duration: 1000,
+  once: true,
+  mirror: false,
+});
+
 window.addEventListener('load', function () {
   window.addEventListener('scroll', toggleNavbarShadow);
+  startAOS();
 });
 
 //=============Copy======/
@@ -47,3 +49,4 @@ window.onload = function () {
   let date = new Date();
   copy.textContent = date.getFullYear();
 };
+
