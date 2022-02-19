@@ -19,6 +19,18 @@ mobileNavLinks.forEach((link) => {
   }
 });
 
+
+const startAOS = () => {
+  AOS.init({
+    delay: 200,
+    duration: 1000,
+    once: true,
+    mirror: false,
+    disableMutationObserver: true,
+    disable: 'mobile',
+  });
+};
+
 // ===========Navbar shadow when scrolled more than 300px=========//
 function toggleNavbarShadow() {
   if (this.scrollY >= 300) {
@@ -29,12 +41,6 @@ function toggleNavbarShadow() {
 }
 
 // Starting Animate On Scroll (AOS)
-const startAOS = AOS.init({
-  delay: 200,
-  duration: 1000,
-  once: true,
-  mirror: false,
-});
 
 window.addEventListener('load', function () {
   window.addEventListener('scroll', toggleNavbarShadow);
@@ -47,3 +53,5 @@ window.onload = function () {
   let date = new Date();
   copy.textContent = date.getFullYear();
 };
+
+window.addEventListener('load', function () {});

@@ -4,8 +4,6 @@
     height: 100vh;
   }
 
-
-
   .navbar-toggler {
     margin-right: 1rem;
   }
@@ -16,6 +14,8 @@
   #landing {
     background-color: $warning;
     padding-top: 1.5rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
   }
 
   .landing-image {
@@ -61,7 +61,7 @@
 
   .cta {
     background-image: linear-gradient(rgba(white, 0.2), rgba(white, 0.2)),
-      url("../assets/images/success.jpg");
+      url('../assets/images/success.jpg');
     min-height: 33vh;
     background-size: cover;
     position: relative;
@@ -76,6 +76,14 @@
   #what-i-do {
     padding-top: 2.5rem;
   }
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
 }
